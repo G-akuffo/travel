@@ -28,13 +28,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "thtravel-ios"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.k1ngfii.th_travel"
     },
     "extra": {
       "router": {
@@ -43,6 +45,12 @@
       "eas": {
         "projectId": "9cbb2e81-16a9-49b7-8ce7-ef194889192e"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9cbb2e81-16a9-49b7-8ce7-ef194889192e"
     }
   }
 }
